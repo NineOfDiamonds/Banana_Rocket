@@ -1,0 +1,30 @@
+.button {
+	display: inline-block;
+	border-radius: 6px;
+	border: 1px solid #565656;
+	padding: 10px 20px;
+	color: #565656;
+	transition: color, background-color .6s;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: grey;
+	color: white;
+}
+
+.button.-success {
+	background-color: #23db57;
+	border: none;
+	color: #fff;
+}
+
+.button.-success:hover {
+	background-color: salmon;
+}
+
+@media screen and (max-width:388px) {
+	.button.-success {
+		margin-bottom: 10px;
+	}
+}
