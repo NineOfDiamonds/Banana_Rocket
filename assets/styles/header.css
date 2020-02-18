@@ -25,6 +25,56 @@ header a {
 	margin-left: 15px;
 }
 
+.burger {
+	display: none;
+}
+
+.burger__layer {
+	display: block;
+	height: 2px;
+	width: 36px;
+	background-color: #fff;
+	transition: .7s;
+}
+
 @media screen and (max-width: 767px) {
-		
+	.header__logo {
+		font-size: 18px;
+		margin-left: 10px;
+	}
+
+	.header__nav {
+		padding-bottom: 7px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.burger {
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		width: 36px;
+		height: 20px;
+		transition: .7s;
+	}
+
+	.burger:hover .burger__layer.-t {
+		transform: translate(-8px, 7px) rotate(-45deg);
+
+	}
+
+	.burger:hover .burger__layer.-b {
+		transform: translate(8px, -7px) rotate(45deg);
+
+	}
+
+	.burger__layer {
+		border-radius: 2px;
+	}
+
+
+	.header__nav {
+		display: none;
+	}
 }
