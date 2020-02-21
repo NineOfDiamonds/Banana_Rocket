@@ -1,0 +1,37 @@
+.footer {
+	padding: 20px 0;
+	background-color: #565656;
+	color: #fff;
+}
+
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.footer__title {
+	font-weight: 900;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.footer__left {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	max-width: 550px;
+	width: calc(100% - 100px);
+}
+
+.footer__list {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.footer__year {
+	text-align: center;
+}
