@@ -50,9 +50,16 @@
 
 @media screen and (max-width: 640px) {
 	.sites {
+		justify-content: center;
 		flex-wrap: wrap;
 		max-height: 100%;
 
+	}
+
+	.site {
+		margin-bottom: 15px;
+		margin-right: 20px;
+		box-shadow: 3px 5px 10px #595959;
 	}
 }
 
