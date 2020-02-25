@@ -19,6 +19,11 @@ header a {
 	font-weight: 900;
 	font-size: 20px;
 	text-transform: uppercase;
+	transition: .7s;
+}
+
+.header__logo:hover {
+	color: #fcf003;
 }
 
 .header__link {

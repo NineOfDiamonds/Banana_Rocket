@@ -41,3 +41,28 @@
 .site__year {
 	font-size: 14px;
 }
+
+@media screen and (max-width: 1024px) {
+	.site {
+		margin-right: 10px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.sites {
+		flex-wrap: wrap;
+		max-height: 100%;
+
+	}
+}
+
+@media screen and (max-width: 465px) {
+	.sites {
+		justify-content: center;
+	}
+
+	.site {
+		margin-bottom: 15px;
+		box-shadow: 3px 5px 10px #595959;
+	}
+}
